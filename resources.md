@@ -1,17 +1,17 @@
 # Resources by Category
 
-# Resources
-
 Here is a big dump of lots of resources for front-end devs.
 
 ## My Atom Setup
 
 Here's how I have Atom configured on my machine:
+
 https://github.com/tiy-durham-fe-2015/curriculum/blob/master/atom-cheat-sheet.md
 
 ## Git
 
 Good tutorial:
+
 https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 ## CSS/HTML
@@ -53,12 +53,6 @@ Start a server in any directory on Mac:
 
     python -m SimpleHTTPServer 8000
 
-Google design guidelines:
-http://www.google.com/design/spec/material-design/introduction.html
-
-Free resources for designers:
-https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
-
 Preprocessors
 
 * http://learnboost.github.io/stylus/
@@ -79,6 +73,7 @@ CSS guidelines: http://cssguidelin.es/
 SCSS guidelines: http://sass-guidelin.es/
 
 CSS Specificity rules:
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
 ### Tutorials & Articles
@@ -185,13 +180,13 @@ http://jquery.com/
 lo-dash, a set of useful helpers:
 https://lodash.com/
 
-lazy evaluation:
+Lazy evaluation:
 http://danieltao.com/lazy.js/
 
-functional constructs in JS:
+Functional constructs in JS:
 http://ramdajs.com/docs/
 
-[Advanced] physics library:
+Advanced physics library:
 http://brm.io/matter-js
 
 Books
@@ -209,7 +204,6 @@ https://www.nativescript.org/
 Git cheat sheet:
 https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
-
 ### General Tech
 
 Blogs & News
@@ -224,6 +218,10 @@ Avoiding complexity:
 http://www.theeffectiveengineer.com/blog/hidden-costs-that-engineers-ignore?utm_source=Founder+Weekly+Newsletter&utm_campaign=1a5eed15d1-Founder_Weekly_Issue_163_December_31_2014&utm_medium=email&utm_term=0_286b01fd3e-1a5eed15d1-331306269
 
 ## Design
+
+Free resources for designers:
+
+https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
 
 UX:
 

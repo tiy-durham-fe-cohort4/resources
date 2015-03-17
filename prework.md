@@ -1,88 +1,51 @@
 # Cohort 4, Front-End Prework
 
-## Learn HTML and CSS
+## Set up your Mac
 
-[Here's](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?ie=UTF8&qid=1422485062&sr=8-1&keywords=html+and+css)
-a book that many people highly reccommend on the subject. Give it a go, if
-books are your thing.
+1. [Install Atom](https://atom.io/)
+2. [Install Git](https://help.github.com/articles/set-up-git/)
+3. [Install Node](http://nodejs.org/download/)
+4. [Install Chrome](https://www.google.com/intl/en/chrome/browser/)
+5. [Install Homebrew](http://brew.sh/)
+6. [Install Bower](http://bower.io/#install-bower)
 
-Be really familiar with when you'd use these CSS rules:
+## Learn the front-end languages
 
-- position: fixed
-- position: relative
-- position: absolute
-- margin
-- padding
-- border
-- background
-- color
+1. [Learn HTML basics](http://www.w3schools.com/html/html_intro.asp)
+2. [Learn CSS basics](http://www.w3schools.com/css/)
+3. [Learn JavaScript](http://eloquentjavascript.net/)
 
-There are lots of great resources for learning CSS/HTML.
+That 3rd link is to a book. Try to get through the first 5-6 chapters before
+the cohort starts. The more you know beforehand, the better you'll fare in the
+first few weeks of school!
 
-Here's one:
+If you want to play with HTML, JavaScript, or CSS, you may want to use one of
+these handy tools:
 
-http://www.w3schools.com/css/
+- http://jsbin.com/?html,css,js,output
+- http://codepen.io/pen/
 
-Here's another:
+## Terminal
 
-http://learn.shayhowe.com/html-css/
+You're working on a Mac. When developing on Mac or Linux, you'll be using
+the terminal extensively. The more you know about it before starting the course,
+the happier you'll be. *Believe me!*
 
-I personally prefer just reading about it on MDN:
+1. [Read up on the terminal](http://blog.teamtreehouse.com/command-line-basics)
+2. [Read more if you're lost](http://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855)
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/background
+## Git
 
-And tinkering with it here:
+Git is a version control system.
 
-http://codepen.io/pen/
+It allows you to track changes you've made to files in your projects. If you
+make a massive change to a file, save it, and then regret it, you can use git
+to recover a previous (working) version of your file(s). Git also makes
+collaborating with teammates *much* easier. You and your teammates can change
+files in your project without worrying (too much) about stepping on each others'
+toes.
 
-Take a stab at laying out a real website using HTML and CSS. Here's one, if you
-don't want to find your own: https://www.mint.com/
+We'll be using Git extensively, so you should read up on it.
 
-Try to build that yourself with CSS and HTML. The further you get, the easier
-your first week will be!
-
-## Next, get familiar with JavaScript
-
-Definitely read this. The first 5-6 chapters are the most pertinent:
-
-http://eloquentjavascript.net/
-
-And then do some CodeCademy JavaScript exercises. The more familiarity with JS
-you have, the better!
-
-Read some MDN articles on it:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
-
-... and play with it here:
-
-http://jsbin.com/?html,js,output
-
-## Set up your Mac:
-
-Install git:
-
-https://help.github.com/articles/set-up-git/
-
-And learn about git. (GitHub has some great tutorials on it.)
-
-Install Node:
-
-http://nodejs.org/download/
-
-And make sure that when you type npm in the terminal, you don't get a big error
-screen!
-
-## Learn a Bit About Fonts
-
-See if you can find good answers to these questions:
-
-1. What's the optimal font-size? Is there one?
-2. Is there an optimal ratio between font-size and line-height?
-3. Is there an optimal line-length/column-width (hint: sort of)? What is it?
-
-Check out web-fonts:
-
-* http://css-tricks.com/snippets/css/using-font-face/
-* https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96
-* http://www.fontsquirrel.com/
+1. Check out [this Treehouse tutorial](http://teamtreehouse.com/library/git-basics)
+2. [Read more here](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
