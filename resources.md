@@ -135,6 +135,9 @@ Some curated lists of web fonts:
 * At the bottom of this article: https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96
 * http://hellohappy.org/beautiful-web-type/
 
+Pretty sweet nav menus:
+
+http://exisweb.net/incredibly-useful-list-of-responsive-navigation-and-menu-patterns
 
 Inspiration
 
