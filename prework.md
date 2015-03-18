@@ -11,13 +11,17 @@
 
 ## Learn the front-end languages
 
-1. [Learn HTML basics](http://www.w3schools.com/html/html_intro.asp)
-2. [Learn CSS basics](http://www.w3schools.com/css/)
-3. [Learn JavaScript](http://eloquentjavascript.net/)
+1. [Learn HTML and CSS basics](http://learn.shayhowe.com/html-css/)
+2. [Learn JavaScript](http://www.codecademy.com/en/tracks/javascript)
+3. [More JavaScript can't hurt!](http://eloquentjavascript.net/)
 
 That 3rd link is to a book. Try to get through the first 5-6 chapters before
 the cohort starts. The more you know beforehand, the better you'll fare in the
 first few weeks of school!
+
+You can read a whole lot more about HTML over at [MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories).
+That link brings you to a comprehensive list of HTML elements, grouped by
+category.
 
 If you want to play with HTML, JavaScript, or CSS, you may want to use one of
 these handy tools:
