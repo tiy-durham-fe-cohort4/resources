@@ -30,7 +30,7 @@ spend reading about and exploring the following subjects.
 
 ### JavaScript
 
-[Learn JavaScript](http://eloquentjavascript.net/) by going through the
+Learn JavaScript by going through the
 [Eloquent Javascript](http://eloquentjavascript.net/) book. I would suggest
 the first 3-5 chapters. Anything beyond that is *great* but not necessary for
 prework.
