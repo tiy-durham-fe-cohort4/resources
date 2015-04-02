@@ -193,6 +193,9 @@ http://ramdajs.com/docs/
 Advanced physics library:
 http://brm.io/matter-js
 
+Scrolling effects:
+https://github.com/gopatrik/space.js
+
 Books
 http://eloquentjavascript.net/
 
