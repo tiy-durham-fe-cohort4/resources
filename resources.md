@@ -118,6 +118,7 @@ Free Images
 * http://www.pexels.com/
 * https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b
 * https://www.haikudeck.com
+* https://unsplash.com/
 
 Fonts
 
@@ -191,6 +192,9 @@ http://ramdajs.com/docs/
 
 Advanced physics library:
 http://brm.io/matter-js
+
+Scrolling effects:
+https://github.com/gopatrik/space.js
 
 Books
 http://eloquentjavascript.net/
