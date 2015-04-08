@@ -9,7 +9,8 @@
 - Strings, arrays and hashes
 - DOM elements, manipulation, and events
 - Scope and organization
-- Gotchas
+- JavaScript gotchas
+- Thinking like a programmer
 
 ### Introduction to programming
 
@@ -36,12 +37,32 @@
 
 - if, else
 - for
+- continue
 - for in
 - while
 - do/while
-- ternary
+- ternary: `isTrue ? 'Yes' : 'No'`
 - short-circuited statements
-- continue
+
+    function say (something) {
+      // If something is falsy, then we'll make it 'Hello'
+      something = something || 'Hello';
+      alert('Someone says: ' + something);
+    }
+
+    function fullName (usePrefix) {
+      // A short way to only run the processPrefix function if
+      // usePrefix is truthy
+      usePrefix && processPrefix();
+
+      processName();
+    }
+
+ternary: isTrue ? 'Yes' : 'No';
+short-circuiting
+var isMyShirtRed = false;
+var result = (!isMyShirtRed && "it's actually salmon") || "yey for red";
+value = value || 'default';
 
 ### Debugging
 
@@ -69,6 +90,7 @@
 - What is a hash?
 - Most commonly used array properties/methods
 - Most commonly used string properties/methods
+- Exercises from here  https://github.com/tiy-durham-fe-2015/curriculum/blob/master/lectures/week3/1-monday-3.md
 
 ### DOM elements, manipulation, and events
 
@@ -77,13 +99,27 @@
 - Updating elements
 - Handling events
 
-### Gotchas
+### JavaScript gotchas
 
 - strict mode
 - Reserved words
   -  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords
 - Semicolon insertion
   - http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon
+- Exceptions
+  - try/catch/finally
+  - Error
+
+### Thinking like a programmer
+
+- Understand the problem
+- Break it down into steps
+  - Break complex steps into steps, etc
+- Identify patterns
+- Separate concerns
+- Single responsibility principle
+- Code to an abstraction
+- MVP: Ship, ship, ship
 
 ## Exercises
 
