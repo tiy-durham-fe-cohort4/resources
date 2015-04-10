@@ -6,7 +6,6 @@
 - DOM manipulation
 - DOM events
 - DOM traversal
-- Regular expressions
 - Building with Gulp
 - SCSS
 
@@ -35,6 +34,7 @@
   - insertAdjacentHTML
     - https://developer.mozilla.org/en-US/docs/Web/API/Element.insertAdjacentHTML
   - document.createElement
+- Saving with local storage
 
 ### DOM Events
 
@@ -67,17 +67,6 @@
   - nextSibling
   - previousSibling
   - parentNode
-
-### Regular expressions
-
-- string split
-- string match
-- regex test
-- regex exec
-- input pattern
-- http://html5pattern.com/
-- http://www.w3schools.com/jsref/jsref_obj_regexp.asp
-- http://codular.com/regex
 
 ### Building with Gulp
 
@@ -120,10 +109,9 @@ https://dribbble.com/shots/850410-Dropdown-Menu-UI?list=searches&tag=dropdown_me
   - Handle the case where there is a comma in a field (the field is quoted)
   - Handle the case where there is a newline in a field (the field is quoted)
 
-### User management
+### Weekend: Memory game
 
-- Could we come up with a more fun exercise that still achieves this goal?
-- https://github.com/tiy-durham-fe-2015/curriculum/tree/master/assignments/user_mgmt
+- http://chrisdavies.github.io/memory/
 
 ## Reading
 

@@ -153,6 +153,7 @@ value = value || 'default';
 
 ## Reading
 
+- Learn JS by playing a game http://www.jsdares.com/
 - Read about semicolon insertion issues
 - http://codebetter.com/jeremymiller/2006/12/03/composed-method-pattern/  
 - http://learnxinyminutes.com/docs/javascript/
