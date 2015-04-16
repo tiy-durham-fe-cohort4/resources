@@ -2,6 +2,28 @@
   margin-bottom: 1.6em;
 }
 
+.form-heading {
+  margin-bottom: 0.5em;
+}
+
+.settings-list {
+  width: 20em;
+}
+
+.settings-list:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.settings-list .form-label {
+  float: left;
+}
+.settings-list .check-toggle {
+  float: right;
+}
+
 input[type=text],
 input[type=password],
 textarea,
@@ -213,27 +235,47 @@ input:checked + .check-toggle--text:after {
 /* File */
 .file {
   position: relative;
-  overflow: hidden;
+  display: inline-block;
 }
 
 .file input {
-  width: 10px;
+  width: 1px;
   position: absolute;
   outline: none;
+  z-index: 1;
+}
+
+.file-label {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  border: 1px dashed #DDD;
+  background: white;
+  color: #999;
+  text-align: center;
+  padding: 3em;
+  z-index: 2;
+  min-width: 15em;
 }
 
 /* Btn */
 .btn {
   position: relative;
-  padding: 0.75em 1em;
+  padding: 0.75em 1.75em;
   text-align: center;
   background: #478dca;
+  border: 0;
   color: white;
 }
 
 @media only screen and (max-width: 568px) {
   input[type=text],
-  input[type=password] {
+  input[type=password],
+  .file {
+    width: 100%;
+  }
+
+  .settings-list {
     width: 100%;
   }
 
@@ -246,28 +288,3 @@ input:checked + .check-toggle--text:after {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
