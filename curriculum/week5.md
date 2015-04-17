@@ -38,7 +38,7 @@ The purpose of this week is to teach/catch anything that fell through the cracks
 - Getters/setters
 - Loading from JSON
 - Serializing to JSON
-
+- Overriding toJSON
 
 ### CSS frameworks
 

@@ -27,6 +27,15 @@
 
 ### Functional concepts
 
+- Recursion
+- Functions as params, as returns
+- Filter, map, reduce, some, every
+- Call, apply, bind
+
+  // Convert a method into a function
+  var slice = Function.call.bind(Array.prototype.slice)
+  slice(arr)
+
 - Currying
 - Chaining
 - Promises

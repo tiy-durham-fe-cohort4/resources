@@ -4,13 +4,13 @@
 
 - Introduction to programming
 - Control flow
-- Debugging
-- Objects
 - Strings, arrays and hashes
+- Objects
 - DOM elements, manipulation, and events
+- Thinking like a programmer
 - Scope and organization
 - JavaScript gotchas
-- Thinking like a programmer
+- Debugging
 
 ### Introduction to programming
 
@@ -58,11 +58,11 @@
       processName();
     }
 
-ternary: isTrue ? 'Yes' : 'No';
-short-circuiting
-var isMyShirtRed = false;
-var result = (!isMyShirtRed && "it's actually salmon") || "yey for red";
-value = value || 'default';
+- ternary: isTrue ? 'Yes' : 'No';
+- short-circuiting
+- var isMyShirtRed = false;
+- var result = (!isMyShirtRed && "it's actually salmon") || "yey for red";
+- value = value || 'default';
 
 ### Debugging
 
@@ -123,6 +123,9 @@ value = value || 'default';
 
 ## Exercises
 
+- Cowsay
+
+- Build an interface that lets the user create a card
 
 - Simple calculator
   - https://github.com/tiy-durham-fe-2015/curriculum/blob/master/lectures/week2/week-02-2-jan-21.md

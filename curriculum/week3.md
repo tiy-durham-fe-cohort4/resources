@@ -78,6 +78,13 @@
 - Variables
 - Importing
 - Mixins
+- Medium's philosophy on SASS, LESS: https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06
+	- Basically write CSS
+	- Use SASS/LESS very minimally, preferring legibility and standards
+	- Use mixins very lightly
+	- Use variables to reduce duplication
+	- Use include/import to organize into multiple files
+	- Everything else should be plain CSS (no nesting, no extends, etc)
 
 ## Exercises
 

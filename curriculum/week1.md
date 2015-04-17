@@ -2,15 +2,52 @@
 
 ## Lessons
 
+- The design process
 - HTML and CSS overview
 - Git
-- The design process
-- Box model
 - Layout
+  - Box model
 - Foreground and background
 - Fonts
 - Forms
 - Interactivity
+
+### The design process
+
+- Sketch it / wireframe
+- Iterate on sketches until satisfied
+- Identify and name elements
+- Write descriptive markup (markup with descriptive classes)
+- Apply styling via CSS in a methodical manner
+- Styleguides
+
+- Discuss proper use of
+  - Contrast
+    - Rule of thumb: If you have a background color, odds are you should be
+    using white or light text
+  - Padding
+  - Borders
+    - 1 + 1 = 3
+    - minimalism
+    - weight and contrast should not compete with primary content
+  - Fonts
+    - Families
+    - Weight
+    - Size
+    - Line height
+  - Color palettes
+- Don't make me think and design of everyday things
+  - Make it obvious
+  - Buttons should look like buttons
+  - Textboxes should look like textboxes
+  - If a visual element is not immediately obvious, it's styled incorrectly
+
+- Assignments/exercises
+  - Design a product
+  - Mockup/wireframe it
+  - Diagram how to make toast
+  - Reading...
+  - Try laying out your design?
 
 ### HTML and CSS overview
 
@@ -48,36 +85,6 @@
 - git pull
 - git clone
 - GitHub
-
-### The design process
-
-- Sketch it / wireframe
-- Iterate on sketches until satisfied
-- Identify and name elements
-- Write descriptive markup (markup with descriptive classes)
-- Apply styling via CSS in a methodical manner
-- Styleguides
-
-- Discuss proper use of
-  - Contrast
-    - Rule of thumb: If you have a background color, odds are you should be
-    using white or light text
-  - Padding
-  - Borders
-    - 1 + 1 = 3
-    - minimalism
-    - weight and contrast should not compete with primary content
-  - Fonts
-    - Families
-    - Weight
-    - Size
-    - Line height
-  - Color palettes
-- Don't make me think and design of everyday things
-  - Make it obvious
-  - Buttons should look like buttons
-  - Textboxes should look like textboxes
-  - If a visual element is not immediately obvious, it's styled incorrectly
 
 
 ### Box model
