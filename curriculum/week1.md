@@ -148,8 +148,6 @@
 - em, i
 - blockquote
 - text-align
-- autofocus
-- required
 - http://fontello.com/
 - http://app.fontastic.me/
 - http://hellohappy.org/beautiful-web-type/
@@ -157,6 +155,8 @@
 
 ### Forms
 
+- required
+- autofocus
 - form
 - method
 - action
