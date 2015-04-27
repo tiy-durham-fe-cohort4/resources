@@ -40,7 +40,13 @@ Scale calculator for headers, line-heights, etc:
 http://type-scale.com/
 
 Simple grid system:
-http://jeet.gs/
+
+- http://jeet.gs/
+- http://susy.oddbird.net/
+- http://neat.bourbon.io/
+
+Find related products:
+http://www.producthunt.com/
 
 Animations:
 
@@ -76,13 +82,30 @@ CSS Specificity rules:
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
+Color scheme design:
+
+- http://design-seeds.com
+- http://colorschemedesigner.com/csd-3.5/
+- http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+- https://color.adobe.com
+
+Sketching, drawing:
+
+- https://inkscape.org/en/
+- http://bohemiancoding.com/sketch/
+
 ### Tutorials & Articles
 
 HTML element categories:
 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories
 
 CSS/HTML tutorial:
-http://learn.shayhowe.com/html-css/
+
+- http://learn.shayhowe.com/html-css/
+- http://howtocodeinhtml.com/
+
+Responsive tables:
+https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/
 
 Advanced CSS selectors game:
 http://flukeout.github.io/
@@ -135,6 +158,8 @@ Some curated lists of web fonts:
 
 * At the bottom of this article: https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96
 * http://hellohappy.org/beautiful-web-type/
+* http://www.typewolf.com/
+* http://femmebot.github.io/google-type/
 
 Pretty sweet nav menus:
 
@@ -142,9 +167,12 @@ http://exisweb.net/incredibly-useful-list-of-responsive-navigation-and-menu-patt
 
 Inspiration
 
+* https://www.pinterest.com/search/pins/?q=interface%20design
+* https://dribbble.com
+* http://zurb.com/patterntap
+* http://littlebigdetails.com/
 * http://html5up.net/
 * http://codepen.io/patterns/
-* https://dribbble.com
 * http://squarespace.com/
 * http://thoughtbot.com/
 * http://line25.com/
@@ -176,6 +204,18 @@ http://scott.sauyet.com/Javascript/Talk/FunctionalProgramming/
 JS style guide:
 http://javascript.crockford.com/code.html
 
+A quick overview of JavaScript:
+https://slides.com/concise/js/fullscreen#/
+
+Node:
+http://nodeschool.io/
+
+Angular:
+https://egghead.io/technologies/angularjs
+
+Learn algorithms:
+https://www.khanacademy.org/computing/computer-science/algorithms
+
 ### Libraries
 
 jQuery
@@ -205,30 +245,62 @@ http://chimera.labs.oreilly.com/books/1230000000345/index.html
 Cool extension to D3:
 http://riccardoscalco.github.io/textures/
 
+Rich text editor:
+http://www.alohaeditor.org/
+
 WebGL (3D on the web):
 http://webglfundamentals.org/
+
+Rendering HTML with WebGL (this is crazy):
+https://github.com/PixelsCommander/HTML-GL/blob/master/README.md
+
+OAuth handiness:
+http://adodson.com/hello.js/#hellojs
 
 ### Native Mobile
 
 https://www.nativescript.org/
 
-### Git
+## Git
 
 Git cheat sheet:
 https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
-### General Tech
+## General Tech
 
 Blogs & News
 
 * https://news.ycombinator.com/
 * https://signalvnoise.com/
+* https://robots.thoughtbot.com/
+* http://www.joelonsoftware.com/
+* http://alistapart.com/
 
 Gulp stuff:
 https://developers.google.com/web/fundamentals/tools/build/setupbuildprocess?hl=en
 
 Avoiding complexity:
 http://www.theeffectiveengineer.com/blog/hidden-costs-that-engineers-ignore?utm_source=Founder+Weekly+Newsletter&utm_campaign=1a5eed15d1-Founder_Weekly_Issue_163_December_31_2014&utm_medium=email&utm_term=0_286b01fd3e-1a5eed15d1-331306269
+
+## Interviewing
+
+### Getting an interview
+
+Post your resume online!
+
+- http://indeed.com
+- http://dice.com
+
+### Prepping for an interview
+
+Solve problems to keep your skills and brain sharp
+
+- https://www.interviewcake.com/free-weekly-coding-interview-problem-newsletter?a=a&utm_source=coderbyte
+- http://coderbyte.com
+- http://www.toptal.com/javascript/interview-questions
+
+Google "ACM programming competition problems", and try solving some of the problems you find
+
 
 ## Design
 

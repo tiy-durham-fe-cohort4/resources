@@ -3,7 +3,7 @@
 ## Lessons
 
 - The design process
-- HTML and CSS overview
+- HTML and CSS overview (2 lectures)
 - Git
 - Layout
   - Box model
@@ -49,13 +49,24 @@
   - Reading...
   - Try laying out your design?
 
-### HTML and CSS overview
+### HTML and CSS overview (2 lectures)
 
-- Browsers as a servant fetching data
 - Syntax
   - the source of 99% of errors
 - Conventions
+  - Semantic HTML
+  - How to name classes, etc
 - Terminology
+  - HTML
+  - CSS
+  - Attributes
+  - Tags
+  - Elements
+- Flow
+  - Block
+  - Inline
+  - Resizing
+  - Reflexive
 - Selectors
   - Specificity
 - Attributes
@@ -72,8 +83,14 @@
     - h1, h2, h3, h4, h5, h6
 - Classes
 - IDs
-- Flow
+
+- Browsers as a servant fetching data
 - Developer tools and inspection of source
+- color
+- background
+- images
+- gradients
+- img
 
 ### Git
 
@@ -114,17 +131,10 @@
 - nav
 - div
 - span
+- box-model
 - responsive design (meta and media)
 - https://css-tricks.com/snippets/html/responsive-meta-tag/
 - http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-
-### Foreground and background
-
-- color
-- background
-- images
-- gradients
-- img
 
 ### Fonts
 
