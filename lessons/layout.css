@@ -1,3 +1,9 @@
+
+.img-diagram img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
 .demo-inline,
 .demo-inline-block,
 .demo-block {
@@ -78,4 +84,17 @@
   border-style: solid;
   border-width: 1em 1em 0 0;
   border-color: #007bff transparent     transparent transparent;
+}
+
+.demo-border-box,
+.demo-content-box {
+  display: inline-block;
+  height: 3em;
+  border: 5px solid #007bff;
+  padding: 0.75em;
+  margin: 0.5em;
+}
+
+.demo-border-box {
+  box-sizing: border-box;
 }

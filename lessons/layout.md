@@ -4,22 +4,6 @@ class: center, middle, inverse
 
 ---
 
-- Box-sizing
-  - Side-by-side comparison
-- Text-align justify hack
-- External link for
-  - Proportional sizing
-  - Positioning
-  - Responsive
-  - Transform
-  - Float
-
-???
-
-These are notes
-
----
-
 # Padding, margin, border
 
 ```css
@@ -127,17 +111,85 @@ There's even a [spiffy tool](http://apps.eky.hk/css-triangle-generator/) to help
 
 ---
 
+# Box-model
 
+By default, width/height excludes padding and borders. Given this rule:
+
+```css
+.my-block {
+  width: 300px;
+  padding: 2px;
+  border: 1px solid red;
+}
+```
+
+What will the actual width of the block be?
+
+## 306px
+
+---
+
+# Changing the box-model
+
+You can adjust the box-model like so:
+
+```css
+.my-block {
+  box-sizing: border-box;
+}
+```
+
+.demo-border-box[
+  border-box
+]
+.demo-content-box[
+  content-box
+]
+
+Both of those have these rules, but a different box-model:
+
+```css
+.demo-content-box, .demo-border-box {
+  height: 3em;
+  border: 5px solid #007bff;
+  padding: 0.75em;  
+}
+```
+
+---
+
+# Position
+
+- absolute - positioned relative to the closest `relative` parent
+- fixed - positioned relative to the window/viewport
+- static - positioned in normal, document flow
+- relative - like static, except serving as a container for absolutely positioned elements
+
+---
+
+# Position fixed
+
+[Here is an example](http://jsbin.com/vekuyunese/1/) of a fixed-position header.
+
+- Usually, you set `top`, `right`, `bottom`, and or `left`
+- Often, you specify a `z-index`
+
+---
+
+# Coordinates
+
+.img-diagram[
+  ![Coordinates](http://i.imgur.com/bOME1H9.png)
+]
+
+---
 
 # Dimensions
 
 - width
 - height
-- min, max width/height
-- box-model
-  - border-box
-  - content-box
-- padding proportion hack
+- min-width, min-height
+- max-width, max-height
 
 ---
 
@@ -205,53 +257,39 @@ There's even a [spiffy tool](http://apps.eky.hk/css-triangle-generator/) to help
   - auto
   - hidden
 
----
+[Example](http://jsbin.com/wazore/1/edit?html,output)
 
-# Process
+???
 
-- Wireframes
-- Identify the components
-- Build out the HTML
-- CSS reset
-- Layout
-- Apply styling
+Floating an item (left or right) takes it out of the normal flow.
 
----
+It's parents won't necessarily contain it.
 
-# Dev tools
+An item with `display: block; clear: both` will "clear" the float.
 
-- Browsers as a servant fetching data
-- Developer tools and inspection of source
-
----
-
-# Position
-
-- absolute
-- fixed
-- relative
-- static
-- top, right, bottom, left
+An alternative way to force a container to properly contain its floating children
+is to use overflow auto or hidden.
 
 ---
 
 # Tables
 
 - table, thead, tr, th, td, tbody, tfoot
+- Tables should not be used for layout
+- Tables *should* be used to represent truly tabular data
+
+[Demo](http://jsbin.com/jorojo/1/edit?html,css,output)
 
 ---
 
 # Transform
 
-- transform translate
+It's a PITA to vertically and horizontally center things.
 
-- ul, ol, li
-- pre
-- header
-- footer
-- nav
-- div
-- span
+- Horizontal center via `margin: auto` [example]()
+- Centering with absolute and transform
+
+[Demo](http://jsbin.com/tenoceq/1/edit)
 
 ---
 
@@ -272,3 +310,5 @@ There's even a [spiffy tool](http://apps.eky.hk/css-triangle-generator/) to help
   /* Override pc-browser styles */
 }
 ```
+
+[Demo](http://jsbin.com/jewala/1/edit?output)
