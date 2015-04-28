@@ -42,7 +42,6 @@ It gives really nice hilights to matching brackets/tags.
 In Atom's settings:
 
 - Enable indentation guides
--
 
 ## Packages
 
