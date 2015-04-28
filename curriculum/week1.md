@@ -103,7 +103,6 @@
 - git clone
 - GitHub
 
-
 ### Box model
 
 - short hand notation
