@@ -1,0 +1,81 @@
+.demo-inline,
+.demo-inline-block,
+.demo-block {
+  min-height: 3em;
+  background: #1f6ffb;
+  color: white;
+  margin: 0.5em;
+  padding: 0.25em;
+}
+
+.demo-inline {
+  display: inline;
+}
+
+.demo-inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.demo-block {
+  display: block;
+}
+
+.demo-frame {
+  display: block;
+  float: right;
+  box-sizing: content-box;
+  font: 2em/1.5 sans-serif;
+  text-transform: uppercase;
+  border: 0.25em solid #333;
+  padding: 1em;
+  margin: 1em;
+  background: #80bea0;
+  background-clip: content-box;
+  color: white;
+}
+
+.demo-shorthand {
+  padding: 1em 0.5em 0.25em 0em;
+  border: 0;
+  background-clip: border-box;
+  background: blue;
+}
+
+.demo-radius {
+  border-radius: 1em;
+}
+
+.demo-circle {
+  border-radius: 3em;
+  height: 3em;
+  width: 3em;
+  box-sizing: border-box;
+  border: 0;
+  background-clip: border-box;
+}
+
+.demo-bevel {
+  border: 1em solid #0675f4;
+  border-left-color: #88bdf5;
+  border-right-color: #88bdf5;
+}
+
+.demo-speech-bubble {
+  position: relative;
+  background: #007bff;
+  border: 0;
+  background-clip: border-box;
+}
+
+.demo-speech-bubble:after {
+  content: ' ';
+  width: 0;
+  position: absolute;
+  bottom: -0.8em;
+  left: 0.5em;
+  height: 0;
+  border-style: solid;
+  border-width: 1em 1em 0 0;
+  border-color: #007bff transparent     transparent transparent;
+}
