@@ -7,7 +7,7 @@ TODO:
 
 ## Padding / margins
 
-- Almost everything shoudl be padded
+- Almost everything should be padded
 - Never have content crowded right up against the edge of its container
 - Use padding (or margins) rather than borders to create visual separation
 
