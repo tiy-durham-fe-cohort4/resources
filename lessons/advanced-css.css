@@ -1,0 +1,60 @@
+.demo-justify {
+  text-align: justify;
+  box-sizing: border-box;
+  border: 1px solid #DDD;
+  background: #EEE;
+}
+
+/* Force the line to wrap by adding a word
+that is 100% width */
+.demo-justify:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.demo-cell {
+  text-align: left;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding: 0.5em;
+}
+
+/* Demo of fixing an aspect ratio */
+.ratio-container {
+  max-width: 40%;
+  position: relative;
+}
+
+.ratio-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background: #de802f;
+  padding: 0.5em;
+}
+
+.ratio-container:before {
+  content: '';
+  display: block;
+  visibility: hidden;
+  padding-top: 100%;
+}
+
+/* Demoing hover and transition */
+.demo-hover a {
+  display: inline-block;
+  background: #713be8;
+  color: white;
+  transition: all 0.5s;
+  padding: 1em;
+}
+
+.demo-hover a:hover {
+  background: #331097;
+}
