@@ -2,7 +2,7 @@
 
 Here is a big dump of lots of resources for front-end devs.
 
-## My Atom Setup
+## My Atom Setup https://code.visualstudio.com/Download
 
 Here's how I have Atom configured on my machine:
 
@@ -17,6 +17,9 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository
 ## CSS/HTML
 
 ### Tools
+
+Microsoft's code editor:
+https://code.visualstudio.com/Download
 
 CSS triangle generator:
 http://apps.eky.hk/css-triangle-generator/
@@ -160,6 +163,7 @@ Some curated lists of web fonts:
 * http://hellohappy.org/beautiful-web-type/
 * http://www.typewolf.com/
 * http://femmebot.github.io/google-type/
+* http://www.webdesignerhub.com/free-retro-style-fonts/
 
 Pretty sweet nav menus:
 
@@ -256,6 +260,9 @@ https://github.com/PixelsCommander/HTML-GL/blob/master/README.md
 
 OAuth handiness:
 http://adodson.com/hello.js/#hellojs
+
+Mighty morphin DOM:
+http://www.rich-harris.co.uk/ramjet/
 
 ### Native Mobile
 
