@@ -4,212 +4,139 @@ class: center, middle
 
 ---
 
-# The program
+## Variables
 
-Let's write a program that says hello.
+- Are named values
+- You can change the value of a variable
+- Rule of substitution (where you see the variable name, you can substitute its value)
 
----
+    // Declare a variable x
+    var x;
 
-# The HTML
+    // Assign a value to x
+    x = 4;
 
-We'll start off with this HTML file:
-
-```html
-<ul id="messages">
-</ul>
-<script src="js101.js"></script>
-```
-
----
-
-# The JavaScript
-
-In `js101.js`, we'll have this:
-
-```javascript
-messages.innerHTML = '<li>Hullo, world.</li>';
-```
-
-The stuff in single quotes is called a string.
-
-`string: programmer speak for "text"`
+    // Declare and assign variable y
+    var y = 33;
 
 ---
 
-# New requirements
+## Strings
 
-Now, the business wants us to say hello to all of their customers...
-
-```javascript
-messages.innerHTML = '<li>Hullo, Jane.</li><li>Hullo, John.</li><li>Hullo, Joe.</li>';
-```
-
----
-
-# Loooong strings
-
-That's getting pretty long. Let's break it up.
-
-```javascript
-messages.innerHTML = '<li>Hullo, Jane.</li>' +
-  '<li>Hullo, John.</li>' +
-  '<li>Hullo, Joe.</li>';
-```
-
-Strings can't span multiple lines. So, what we've done here is create 3 strings
-and concatenate (combine) them using the + operator.
+- How text is represented in JavaScript
+- `var message = 'Hello, class!';`
+- Declares a variable which points to the text: "Hello, class!"
+- Strings begin and end with a single tick ' or a double tick "
 
 ---
 
-# Typo correction
+## Functions
 
-Whoops. We've said `Hullo` instead of `Hello`. Let's fix that.
+- A function is a named block of statements
+- When you call the function, the statements run
+- Can be passed inputs, can produce outputs
 
-```javascript
-messages.innerHTML = '<li>Hello, Jane.</li>' +
-  '<li>Hello, John.</li>' +
-  '<li>Hello, Joe.</li>';
-```
+    // Define / declare function hello
+    function hello(firstName, lastName) {
+      var message = 'Hello, ' + firstName + ' ' + lastName;
+      console.log(message);
+      alert(message);
+    }
 
-Ugh. What a pain. We had to make 3 changes to fix a single typo.
-
----
-
-# Functions
-
-Let's reduce some of that duplication.
-
-```javascript
-function makeGreeting(name) {
-  return '<li>Hello, ' + name + '.</li>';
-}
-
-messages.innerHTML = makeGreeting('Jane') +
-  makeGreeting('John') +
-  makeGreeting('Joe');
-```
+- The code above
+  - Declared a function named hello
+  - Takes two arguments called `firstName` and `lastName`
+  - Creates a local variable to store the hello message
+  - Logs the message to the console
+  - Alerts the message
+  - But this code doesn't actually do anything until the function is called!
 
 ---
 
-class: center, middle
+## Calling / invoking a function
 
-# Much better. But what's that function thing?
+    hello('Chris', 'Davies');
+    hello('Kelly', 'Murray');
 
----
-
-# Functions and recipes
-
-A function is like a recipe
-
-When I say, "Make a peanut butter and jelly sandwich"
-
-- You know to execute a set of instructions
-- You get bread
-- You get peanut butter
-- You get jelly
-- You get a knife
-- You prepare it in a certain sequence
-- etc...
+- Invoke a function by typing its name followed by parenthesis
+- Arguments to a function go in the parenthesis
+- If multiple arguments, separate them by commas
+- Each time the function is called, the statements in the function block are executed
 
 ---
 
-# Defining functions
+## Loops
 
-Before I can tell you to `wozzywonk`, we first  have to define what `wozzywonk` means.
-
-The same is true of functions. The first step is to define a function.
-
-Defining a function is not the same as calling (or executing) the function, just like
-defining the word `dance` is not the same as dancing!
-
----
-
-# Analysis
-
-```javascript
-function makeGreeting(name) {
-  return '<li>Hello, ' + name + '.</li>';
-}
-```
-
-- This is a function definition
-- The function is named `makeGreeting`
-- Doesn't do anything until we call it
-- We call it like this `makeGreeting('Foo')`
-- One argument: `name`
-- Returns a string
+- Allow you to run a block of code multiple times
+- Come in several variants
+  - for (this is by far the most common)
+  - while
+  - do while
 
 ---
 
-# Back to the program
+## For loops
 
-```javascript
-function makeGreeting(name) {
-  return '<li>Hello, ' + name + '.</li>';
-}
+- Generally are used to loop a specific number of times
 
-messages.innerHTML = makeGreeting('Jane') +
-  makeGreeting('John') +
-  makeGreeting('Joe');
-```
+    for (var i = 0; i < 30; ++i) {
+      console.log(i);
+    }
 
-- We've defined a function
-- We've called it 3 times
-- We've concatenated the results
-- We've updated our HTML document
-
----
-
-# DRY
-
-Don't repeat yourself
+- This is how a for loop usually looks
+- `i` is a loop variable, common loop variable names are `i, j, x, y`
+- It is declared `var i = 0;`
+- Next, is a condition which is checked each time through the loop `i < 30;`
+  - This is saying, "If i is less than 30, run the code in the block"
+- Finally, at the end of each iteration, we increment i `++i`
+  - `++i` is a quick way to add one to i
+  - `i = i + 1` is another way
 
 ---
 
-# Showing account data
+## While loops
 
-Let's say we wanted to show account data...
+- Less common than for, but still useful
+- Generally used when you don't know the exact number of iterations needed
 
-```javascript
-function makeAcctSummary(name, owes, paymentSize) {
-  return '<li>' + name + ' will pay off ' + owes + ' in ' + (owes / paymentSize) + ' months</li>';
-}
+    var i = 0;
+    while (i < 30) {
+      console.log(i);
+      ++i;
+    }
 
-messages.innerHTML = makeAcctSummary('Jane', 1000, 100) +
-makeAcctSummary('John', 2300, 100) +
-makeAcctSummary('Joe', 1324, 32);
-```
-
----
-
-# Tidying it up a bit
-
-This line is a little confusing now:
-
-```javascript
-return '<li>' + name + ' will pay off ' + owes + ' in ' + (owes / paymentSize) + ' months</li>';
-```
-
-We could make things a little clearer:
-
-```javascript
-function makeAcctSummary(name, owes, paymentSize) {
-  var monthsLeft = owes/paymentSize;
-  return '<li>' + name +
-    ' will pay off ' + owes +
-    ' in ' + monthsLeft + ' months</li>';
-}
-```
+- Does the exact same thing as the previous for loop
 
 ---
 
-# Variables
+## Do while
 
-```javascript
-function makeAcctSummary(name, owes, paymentSize) {
-  var paymentsRemaining = owes/paymentSize;
-  return '<li>' + name + ' has ' + paymentsRemaining + ' payments left</li>';
-}
-```
+    var i = 0;
+    do {
+      console.log(i);
+      ++i;
+    } while (i < 0)
 
+- This will actually execute, because the block of code always executes once
+- Rarely used, but good to know
 
+---
+
+## Math
+
+- Add `1 + 2`
+- Subtract `1 - 2`
+- Negate `-3`
+- Divide `4 / 2`
+- Multiply `4 * 2`
+- Mod `4 % 2` yields the remainder (0, in this case)
+- Get random number
+  - Between 0 (inclusive) and 1 (exclusive) `Math.random()`
+  - Beween 1 and 10 (inclusive) `Math.floor(Math.random() * 10) + 1`
+- [Math reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+---
+
+## Canvas 2d context API
+
+- [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#Paths)
