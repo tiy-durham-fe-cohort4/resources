@@ -45,3 +45,10 @@
 ## Hard mode
 
 - Take one of your wireframes and build it in HTML + CSS
+- This is a handy tool for computing type-scale
+  - http://type-scale.com/
+- Here's a good place to find images:
+  - http://www.pexels.com/
+  - https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b
+  - https://www.haikudeck.com
+  - https://unsplash.com/

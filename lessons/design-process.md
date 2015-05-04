@@ -75,7 +75,7 @@ Deep understanding leads to good design.
   - Consistent alignment
   - Consistent representation of related elements
   - Hierarchy of importance
-    - What is the primary action here? It should be big and clear 
+    - What is the primary action here? It should be big and clear
 
 ---
 
@@ -150,3 +150,18 @@ Tasked with designing a shopping cart
   - Seeing their total?
   - Checking out?
   - Scanning the list to see if they missed anything or have too much of something?
+
+---
+
+## Books
+
+[Don't Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?ie=UTF8&qid=1416519930&sr=8-1&keywords=don%27t+make+me+think)
+is a classic, must read for any front-end engineer or designer.
+
+[The Design of Everyday Things](http://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C/ref=sr_1_1?ie=UTF8&qid=1416520014&sr=8-1&keywords=the+design+of+everyday+things)
+is one of the best design books ever written. But it is more academic, and not
+really focused on digital media at all.
+
+[The Emyth](http://www.amazon.com/The-E-Myth-Revisited-Michael-Gerber-ebook/dp/B000RO9VJK)
+is not a design book, but a systems/process book. If you want to build a
+personal brand (or a business) this is the book for you.
