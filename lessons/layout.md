@@ -4,6 +4,39 @@ class: center, middle, inverse
 
 ---
 
+# First, a digression about syntax
+
+![Commas](http://ecx.images-amazon.com/images/I/414Alp8pEpL._SY355_.jpg)
+
+---
+
+# Syntax errors
+
+- The most common reason something isn't working
+- Look for missing semicolons, colons, braces, parenthesis, quotes, etc
+
+---
+
+- Escaping characters
+
+```HTML
+    <!-- Since greater than is a special character, how do you use it
+    as a regular character? You use escape codes. -->
+    <h1>This &gt; is a greater than</h1>
+
+    <!-- Escape sequences start with an ampersand, followed by a set of
+    characters, and ended by a semicolon. -->
+
+    &quot; <!-- a quote -->
+    &apos; <!-- a single quote / tick / apostrophe -->
+
+    <!-- But since ampersand is a special character denoting an escape
+    sequence, how do you insert an ampersand? -->
+    <h2>Parker &amp; Otis</h2>
+```
+
+---
+
 # Padding, margin, border
 
 ```css
