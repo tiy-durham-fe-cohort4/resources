@@ -2,7 +2,7 @@
 
 Here is a big dump of lots of resources for front-end devs.
 
-## My Atom Setup https://code.visualstudio.com/Download
+## My Atom Setuphttps://code.visualstudio.com/Download
 
 Here's how I have Atom configured on my machine:
 
