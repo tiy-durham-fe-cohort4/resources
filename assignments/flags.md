@@ -30,11 +30,15 @@ This uses canvas, so in your HTML, you'll want something like this:
     <canvas width="800" height="800">
     </canvas>
 
-And in your JavaScript something like this:
+And in your JavaScript something like this at the top:
 
-    var ctx = document
-      .querySelector('canvas')
-      .getContext('2d');
+    // Canvas context
+    var canvas = document.querySelector('canvas');
+    var ctx = canvas.getContext('2d');
+
+    // Fix a stupid context bug that blurs
+    // the pixels
+    ctx.translate(0.5, 0.5);
 
 Here's the canvas context reference:
 
