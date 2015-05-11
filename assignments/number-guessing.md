@@ -46,3 +46,5 @@ assignment.
 - https://dribbble.com/shots/1818748-Appon-Chat-Widget?list=searches&tag=chat&offset=50
 - When the user enters a message, take their message and display it along with
 the time when the message was added
+- What happens if the user types this: `<script>alert("hi")</script>`?
+- How would you protect against such a problem?
