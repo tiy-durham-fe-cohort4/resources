@@ -237,3 +237,40 @@ To iterate through all of the keys in a hash:
     }
 
 ```
+
+---
+
+## Examples
+
+```javascript
+function sum(arr) {
+  var total = 0;
+
+  for (var i = 0; i < arr.length; ++i) {
+    total += arr[i];
+  }
+
+  return total;
+}
+```
+
+---
+
+## Examples (contd)
+
+```javascript
+function distinct(arr) {
+  var hash = {};
+  var result = [];
+
+  for (var i = 0; i < arr.length; ++i) {
+    var item = arr[i];
+    if (!hash[item]) {
+      hash[item] = true;
+      result.push(item);
+    }
+  }
+
+  return result;
+}
+```
