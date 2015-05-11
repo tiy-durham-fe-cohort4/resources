@@ -12,6 +12,8 @@ For a real challenge, check out Wales:
 
 ![Welsh Flag](http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/500px-Flag_of_Wales_2.svg.png)
 
+lol. Just kidding. That'd be crazy. But the `USA` would be a good challenge!
+
 ## Objectives
 
 ### Learning Objectives
