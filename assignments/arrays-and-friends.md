@@ -1,4 +1,4 @@
-# Lists and friends
+# Arrays and friends
 
 ## Description
 
