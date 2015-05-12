@@ -30,16 +30,18 @@ Booleans are types that can be either true or false
 
 ## Operators
 
-- == `'2' == 2` is true
-- === `'2' === 2` is false
-- != `'2' != 2` is false
-- !== `'2' !== 2` is true
-- >
-- <
-- >=
-- <=
-- &&
-- ||
+```
+== `'2' == 2` is true
+=== `'2' === 2` is false
+!= `'2' != 2` is false
+!== `'2' !== 2` is true
+>
+<
+>=
+<=
+&&
+||
+```
 
 ---
 
