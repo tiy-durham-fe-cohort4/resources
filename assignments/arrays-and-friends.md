@@ -40,7 +40,7 @@ indicating whether or not the string is a palindrome (the same backwards as
 Sample usage:
 
     isPalindrome('hannah'); // should return true
-    isPalindrome('foo'); // should return true
+    isPalindrome('foo'); // should return false
     isPalindrome('bob'); // should return true
 
 ### Average
@@ -88,6 +88,8 @@ Sample usage:
 Write a function 'summation' that takes a string containing a comma-separated
 list of numbers and returns the sum of those numbers.
 
+Hint: look into using `parseInt`
+
     function summation(str) {
       // TODO: implement this!!!
     }
@@ -131,10 +133,5 @@ Sample usage:
   - Allow users to input the arguments to the "Normal mode" functions
   - Print out the result to the screen without using an alert
 
-- Write a number guessing game
-  - The program picks a random number between 1 and 10
-  - The user has 3 turns to guess the number
-  - Use an `<input type="number">` element to get input from the user
-  - Output the number of turns on the screen
-  - If the user wins, show a win message
-  - If the user loses, show a lose message
+- Solve some of these:
+  - http://coderbyte.com/CodingArea/Challenges/
