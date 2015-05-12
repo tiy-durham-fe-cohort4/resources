@@ -41,6 +41,7 @@ Booleans are types that can be either true or false
 <=
 &&
 ||
+! is how you say "not" so, if foo = false, !foo is true
 ```
 
 ---
