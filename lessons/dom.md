@@ -200,7 +200,7 @@ txt.setAttribute('name', 'username'); // sets the value of the name attribute
 ```javascript
 // Return an array of class-names associated with el
 function classNames (el) {
-  return (el.getAttribute('class') || '').split(' ');
+  return (el.className || '').split(' ');
 }
 ```
 
