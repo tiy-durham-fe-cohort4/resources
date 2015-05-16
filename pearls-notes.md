@@ -253,15 +253,23 @@ formula, graph it on the grid of squares.
 - Move squares around to get the right image
 - http://en.wikipedia.org/wiki/15_puzzle
 
+## FizzBuzz
+
+Write a function `fizzbuzz` which produces an array of numbers from 1 to 100,
+but for multiples of three the array contains the string 'fizz' instead of the
+number and for the multiples of it contains 'buzz'. For numbers which are
+multiples of both three and five print 'fizzbuzz'.
+
+So this: `fizzbuzz()`
+
+Would return an array with 100 items, the first 16 of which would be:
+
+1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', 'Fizz'
+
 ## Possible exercises
 
 - Objects to simulate tables and joins
 - Given a CSV of survey results, compute summary info (p30 programming pearls)
-
----
-
-
----
 
 Cool program to spell check
 
