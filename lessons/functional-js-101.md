@@ -222,7 +222,7 @@ The second one passes the function bar into foo
 Arrays have a set of really handy functions. Each of which has a variant that
 takes a function as an argument.
 
-- map, filter, reduce, some, every, sort, replace
+- map, forEach, filter, reduce, some, every, sort, replace
 
 There are others, but these are your bread and butter. *Look em up.*
 

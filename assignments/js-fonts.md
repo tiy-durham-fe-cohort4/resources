@@ -20,7 +20,7 @@ After completing this assignment, you should understand...
 
 ## Resources
 
-- [The font dataset](https://github.com/tiy-durham-fe-cohort4/resources/blob/master/dataset/fonts.js)
+- [The font dataset](https://github.com/tiy-durham-fe-cohort4/resources/blob/master/datasets/fonts.js)
 
 ## Details
 
