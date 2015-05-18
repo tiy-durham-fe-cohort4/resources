@@ -1,4 +1,4 @@
-# Functional JavaScript
+# Functional JavaScript 101
 
 
 - Scope
