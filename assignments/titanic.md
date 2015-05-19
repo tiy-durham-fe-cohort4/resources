@@ -27,7 +27,7 @@ After completing this assignment, you should understand...
 
 ## Resources
 
-- [The titanic dataset](https://github.com/tiy-durham-fe-cohort4/resources/blob/master/dataset/titanic.js)
+- [The titanic dataset](https://github.com/tiy-durham-fe-cohort4/resources/blob/master/datasets/titanic.js)
 
 ## Details
 
