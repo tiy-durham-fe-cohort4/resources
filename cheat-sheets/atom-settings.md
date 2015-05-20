@@ -48,6 +48,9 @@ In Atom's settings:
 - color-picker
 - docblockr
 - minimap
+- autoclose-html
+- autocomplete-plus
+  - For this one, I had to search for `autocomplete plus` with no dash.
 
 There are lots of other handy ones, including a nice auto-completer, but these
 are good starters.

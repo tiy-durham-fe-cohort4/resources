@@ -91,6 +91,7 @@ Color scheme design:
 - http://colorschemedesigner.com/csd-3.5/
 - http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
 - https://color.adobe.com
+- Pre-made color schemes: http://www.dtelepathy.com/blog/inspiration/beautiful-color-palettes-for-your-next-web-project
 
 Sketching, drawing:
 

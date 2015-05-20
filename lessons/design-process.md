@@ -79,6 +79,18 @@ Deep understanding leads to good design.
 
 ---
 
+## Wireframes !== Mockups
+
+- Wireframes are not mockups
+- Mockups
+  - Are high-resolution
+  - Show color, font, styling
+- Wireframes
+  - Are low resolution
+  - Focus on layout and functionality
+  - Prevent client from getting distracted by color, images, fonts, etc
+
+---
 
 # Example
 

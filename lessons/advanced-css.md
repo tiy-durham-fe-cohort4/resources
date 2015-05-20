@@ -60,7 +60,7 @@ The `:hover` selector applies when the mouse is over the element...
 It can be paired with a `transition` to make for nice, subtle effects.
 
 .demo-hover[
-  [Read more about it](https://css-tricks.com/almanac/properties/t/transition/)
+  [Read more about transitions](https://css-tricks.com/almanac/properties/t/transition/)
 ]
 
 ---

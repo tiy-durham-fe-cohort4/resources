@@ -1,0 +1,23 @@
+body {
+  background: #333;
+  color: white;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  max-width: 80%;
+  margin: auto;
+}
+
+.container-1 {
+  background: #1cd2cc;
+}
+
+.container-2 {
+  background: #13adb2;
+}
+
+.container-3 {
+  background: white;
+}
