@@ -223,6 +223,9 @@ https://www.khanacademy.org/computing/computer-science/algorithms
 
 ### Libraries
 
+A list of small, focused libraries:
+http://microjs.com
+
 jQuery
 http://jquery.com/
 
@@ -268,6 +271,9 @@ http://www.rich-harris.co.uk/ramjet/
 Lightweight markdown editor:
 https://tibastral.github.io/markdownify/
 
+GBA emulator written in JavaScript:
+http://jsemu.github.io/gba/
+
 ### Native Mobile
 
 https://www.nativescript.org/
@@ -312,6 +318,9 @@ Solve problems to keep your skills and brain sharp
 
 Google "ACM programming competition problems", and try solving some of the problems you find
 
+Find a free dataset and play with the data:
+
+- https://github.com/caesar0301/awesome-public-datasets
 
 ## Design
 
@@ -321,7 +330,8 @@ https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
 
 UX:
 
-http://uxmyths.com/
+- http://uxmyths.com/
+- http://goodui.org/
 
 Google design guidelines:
 
