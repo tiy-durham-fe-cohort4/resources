@@ -128,68 +128,12 @@ Backbone.history.loadUrl();
 
 ---
 
-## Director
+## Alternatives
 
-Pretty similar to Backbone, including the flexibility and limitations:
+There are plenty of other routers (including one I wrote!). A good place to
+go to find libraries that are small and focused is microjs:
 
-```javascript
-var router = Router().init();
-
-router.on('/author', showAuthor);
-router.on('/books', showBooks);
-router.on('/books/:id', showBookById); // this wins
-router.on('/books/new', newBook);
-
-// Go to a book 33
-router.dispatch('on', '/books/33');
-```
-
----
-
-### Director (contd)
-
-- Not quite as popular as Backbone
-- Just as flexible
-- Has specificity problem, but order is backward from Backbone
-- Also doesn't gracefully handle query strings
-
----
-
-## Rlite
-
-I wrote this one with the goal of being as small, fast, and correct as possible.
-
-- [Rlite](https://github.com/chrisdavies/rlite)
-
-It understands specificity so this:
-
-```javascript
-router.add('books/:id', showBook);
-router.add('books/new', newBook);
-```
-
-Is the same as this:
-
-```javascript
-router.add('books/new', newBook);
-router.add('books/:id', showBook);
-```
-
----
-
-### Rlite (contd)
-
-- Small (less than 1/4 the size of Director, 1/8th the size of Backbone, which
-  only matters on the client)
-- 3x faster than the others (which only matters on the server)
-- Performance doesn't degrade as you add routes (which only matters on the
-  server)
-
----
-
-## Finding the library that's right for you
-
-- This is a great resource: http://microjs.com
+http://microjs.com
 
 ---
 
