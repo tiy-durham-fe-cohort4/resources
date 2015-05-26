@@ -147,17 +147,18 @@ objects. This is more prevalent, faster, and more memory-efficient.
 
 ```javascript
 function Circle (x, y, radius) {
-  this.x = x;
-  this.y = y;
+  this.center = {
+    x: x,
+    y: y
+  };
+
   this.r = radius;
 }
 
 // Wait, what's all this!?! (We'll get to it...)
 Circle.prototype.area = function () {
-  return return Math.PI * this.r * this.r;;
+  return Math.PI * this.r * this.r;
 };
-
-
 ```
 
 ---
@@ -230,6 +231,8 @@ I'll just quote MDN, here:
 ---
 
 ### In practice
+
+Prototypal *inheritance*
 
 - It's overused
 - It leads to confusion
