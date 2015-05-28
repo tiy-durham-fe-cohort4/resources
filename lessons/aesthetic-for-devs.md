@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 - Let your content define boundaries
 
-[![Passion](http://images.fromupnorth.com/160/538f12d9311e2.jpg)](http://www.fromupnorth.com/website-design-inspiration-997/)
+[![YouTube](http://images.fromupnorth.com/106/538f12ca8cb1b.jpg)](http://www.fromupnorth.com/website-design-inspiration-997/)
 
 ---
 
@@ -61,6 +61,8 @@ class: center, middle, inverse
 - Inputs should look like inputs
 - Don't break convention unless you've got a damn good reason... and you don't
 - Edgy promo pages are the (possible) sole exception
+
+[![Dashboard](https://d13yacurqjgara.cloudfront.net/users/13157/screenshots/2082470/ui-1.png)](https://dribbble.com/shots/2082470-Dashboard-wip)
 
 ---
 
