@@ -47,6 +47,7 @@ Simple grid system:
 - http://jeet.gs/
 - http://susy.oddbird.net/
 - http://neat.bourbon.io/
+- http://purecss.io/grids/
 
 Find related products:
 http://www.producthunt.com/
@@ -151,6 +152,7 @@ Fonts
 
 * http://fontsquirrel.com
 * http://google.com/fonts
+* http://100daysoffonts.com/
 
 Icon fonts:
 
@@ -243,6 +245,9 @@ http://brm.io/matter-js
 
 Scrolling effects:
 https://github.com/gopatrik/space.js
+
+Extract colors from images:
+https://jariz.github.io/vibrant.js/
 
 Books
 http://eloquentjavascript.net/
