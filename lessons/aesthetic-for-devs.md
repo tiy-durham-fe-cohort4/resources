@@ -1,6 +1,6 @@
 class: center, middle, inverse
 
-# 7 Rules to avoid crap aesthetic
+# 8 Rules to avoid crap aesthetic
 
 ---
 
@@ -63,6 +63,15 @@ class: center, middle, inverse
 - Edgy promo pages are the (possible) sole exception
 
 [![Dashboard](https://d13yacurqjgara.cloudfront.net/users/13157/screenshots/2082470/ui-1.png)](https://dribbble.com/shots/2082470-Dashboard-wip)
+
+---
+
+## 8 Steal your color scheme
+
+- Color theory is hard
+- Let someone else do the hard work
+
+[![Sip](http://a4.mzstatic.com/us/r30/Purple5/v4/fd/9a/ea/fd9aea8f-757c-f6de-1dad-7efe91672bb5/screen800x500.jpeg)](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
 
 ---
 
