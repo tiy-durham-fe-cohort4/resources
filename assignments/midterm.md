@@ -179,7 +179,13 @@ var customers = [{
 // TODO: Write this function, removing any customers that have an email in
 // the bounced list
 function goodCustomers() {
+  return customers.filter(function (customer) {
+    return !isInArray(bounced, customer.email);
+  });
+}
 
+function isInArray(array, value) {
+  return array.indexOf(value) > -1;
 }
 
 ```
@@ -192,11 +198,15 @@ Write a function called repeat that repeats an operation `N` times.
 
 ```javascript
 function repeat(n, fn) {
-  // TODO: implement this
+  while (n) {
+    n--;
+    fn();
+  }
 }
 
 // Logs 'Hi' 5 times
-repeat(5, function () { console.log('Hi'); });
+function sayHi () { console.log('Hi'); }
+repeat(5, sayHi);
 
 // Adds 4 lis to the ul
 repeat(4, function () { $('ul').append('<li />'); });
@@ -278,6 +288,8 @@ You can:
 - Press the right arrow key on your keyboard to go forward
 
 [![Slider](https://d13yacurqjgara.cloudfront.net/users/3375/screenshots/1638223/sero8-dribbble.png)](https://dribbble.com/shots/1638223)
+
+[An example solution](http://jsbin.com/mavasa/2/edit?js,output)
 
 ---
 
