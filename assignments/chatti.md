@@ -40,7 +40,7 @@ There are many commands that the company would like to eventually incorporate:
 
 
 - A good place to find APIs:
-  - http://www.programmableweb.com/
+  - http://www.programmableweb.com/apis/directory
 
 - Dictionary API to translate single words from one lang to another:
   - https://glosbe.com/a-api
