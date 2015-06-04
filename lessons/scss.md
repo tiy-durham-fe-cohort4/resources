@@ -50,9 +50,9 @@ Produces
 
 ---
 
-## Mixins
+## Functions
 
-Kind of like functions for scss...
+Functions, but in CSS!!!
 
 ```css
 @function shade($color, $percent) {
@@ -65,6 +65,76 @@ Kind of like functions for scss...
 
 .modal-background {
   background-color: tint(#548dd8, 40%);
+}
+```
+
+---
+
+## Mixins
+
+[Read about it here](http://davidwalsh.name/write-media-queries-sass)
+
+```css
+$medium-width: 768px;
+$big-width: 1024px;
+
+@mixin medium-screen {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin big-screen {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+```
+
+---
+
+### Use it like this:
+
+```css
+p {
+  font-size: 16px;
+
+  @include medium-screen {
+    font-size: 18px;
+  }
+
+  @include big-screen {
+    font-size: 20px;
+  }
+}
+```
+
+---
+
+## More mixins
+
+```css
+@mixin stacked-item ($spacing: 1em) {
+  padding: $spacing;
+
+  // Use a slightly smaller margin than our padding
+  margin-bottom: $spacing * 0.75;
+}
+```
+
+Use it like this:
+
+```scss
+// Comments can be double-slashes, which I greatly prefer to the /* */
+// alternative...
+.user {
+  // Include the stacked-item rules in .user, using the default $spacing value
+  @include stacked-item;
+}
+
+.appointments {
+  // Include the stacked-item rules in .user, using 1.2em as $spacing
+  @include stacked-item(1.2em);
 }
 ```
 
