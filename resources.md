@@ -337,6 +337,7 @@ UX:
 
 - http://uxmyths.com/
 - http://goodui.org/
+- http://ui-patterns.com/
 
 Google design guidelines:
 
