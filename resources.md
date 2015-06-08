@@ -44,8 +44,9 @@ http://type-scale.com/
 
 Simple grid system:
 
+- http://susy.oddbird.net/ is probably my favorite
+  - [Here's a good crash course on it](https://css-tricks.com/build-web-layouts-easily-susy/)
 - http://jeet.gs/
-- http://susy.oddbird.net/
 - http://neat.bourbon.io/
 - http://purecss.io/grids/
 
