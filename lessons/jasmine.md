@@ -305,7 +305,12 @@ Say we wanted to test this function:
 
 ```javascript
 function say(str) {
-  document.body.innerHTML = str;
+  var el = document.body;
+  
+  el.innerHTML = str;
+  el.addEventListener('click', function () {
+    //
+  });
 }
 ```
 
@@ -319,6 +324,9 @@ more generic).
 ```javascript
 function say(str, el) {
   el.innerHTML = str;
+  el.addEventListener('click', function () {
+    //
+  });
 }
 ```
 
@@ -330,12 +338,25 @@ this function is now more flexible, too!
 ## Mocking (contd)
 
 ```javascript
+function mockEl() {
+  return {
+    addEventListener: function (evtName, fn) {
+      expect(evtName).toBe('click');
+    }
+  };
+}
+
+it('Handles clicks', function () {
+  var mock = mockEl();
+  say('Hi', mock);
+});
+
 it('should update innerHTML', function () {
-  var mockEl = {};
+  var mock = mockEl();;
   
-  say('hi', mockEl);
+  say('hi', mock);
   
-  expect(mockEl.innerHTML).toBe('hi');
+  expect(mock.innerHTML).toBe('hi');
 });
 ```
 
