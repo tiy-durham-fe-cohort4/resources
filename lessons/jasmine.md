@@ -48,7 +48,7 @@ Let's talk about Jasmine
 Install it
 
 ```
-npm install -g jasmine
+npm install -g jasmine-node
 ```
 
 ---
