@@ -332,7 +332,11 @@ Find a free dataset and play with the data:
 
 Free resources for designers:
 
-https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
+- https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
+
+Design for non-designers:
+
+- http://samkap.github.io/design-starter-kit/
 
 UX:
 
