@@ -2,6 +2,17 @@
 
 This includes some feedback from week 4 which I had neglected to send!
 
+## Hover effects
+
+Some of you were showing/hiding elements when the mouse hovers over a section of the page.
+
+(e.g. showing edit and delete links when the mouse hovers over an li)
+
+That's great, but be aware of these pitfalls:
+
+- Visually impaired people can't hover, so they won't have access to links that are only visible on hover
+- People using mobile devices can't hover, so *they* won't hae access to those links, either!
+
 ## Binding events over and over again
 
 This code:
