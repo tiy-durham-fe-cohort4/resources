@@ -10,11 +10,11 @@ If you're not familiar with Hacker News or Reddit, have a quick look here:
 https://news.ycombinator.com/
 
 It's a site where users can share links to interesting content. Other users
-can vote on a link (up or down), and links are displayed based on some
-algorithm. Users can also comment on links.
+can vote on a link (up or down), and shared links (shares) are displayed based on some
+algorithm. Users can also comment on shares.
 
 When a user shares a link that is offensive or objectionable, site admins can
-delete the link. Users can also delete links that they shared. Site admins can
+delete the link. Users can also delete shares that they created. Site admins can
 also disable users who are making rude comments or sharing inappropriate links.
 
 ## Getting started
@@ -53,28 +53,28 @@ After completing this assignment, you should understand…
 * Responsive: It should look good on a mobile phone and on a laptop
 * The ability to login with GitHub
 * Ability to post a new link
-* Ability to see all posted links
+* Ability to see all posted shares
 * Ability to upvote
 * Ability to downvote
 * Ability to undo my vote
 * Routing should be used, so these pages (or their equivalents) should exist:
-  * Links list page
-  * Link detail page
-  * New link page
+  * Shares list page
+  * Shares detail page
+  * New share page
 
 ### Hard Mode
 
 Do everything in normal mode, but also:
 
-* Ability to comment on a link
-* Ability to see comment thread (probably on the link detail page)
-* Ability to edit a link you've posted
-* Ability to delete a link you've posted
+* Ability to comment on a share
+* Ability to see comment thread (probably on the share detail page)
+* Ability to edit a share you've posted
+* Ability to delete a share you've posted
 
 ### Nightmare mode
 
 * Ability to add admins to the system
 * Ability to remove admin rights from a user
-* Ability for admins to remove any link that's been posted
+* Ability for admins to remove any share that's been posted
 * Ability for admins to remove any comment that's been posted
-* Ability to search for a specific link
+* Ability to search for a specific share
