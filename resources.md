@@ -251,7 +251,10 @@ Extract colors from images:
 https://jariz.github.io/vibrant.js/
 
 Books
-http://eloquentjavascript.net/
+
+- http://eloquentjavascript.net/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+- https://github.com/getify/You-Dont-Know-JS
 
 Visualizations on the web:
 http://chimera.labs.oreilly.com/books/1230000000345/index.html
@@ -279,6 +282,9 @@ https://tibastral.github.io/markdownify/
 
 GBA emulator written in JavaScript:
 http://jsemu.github.io/gba/
+
+Speech recognition:
+https://www.talater.com/annyang/
 
 ### Native Mobile
 
