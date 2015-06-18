@@ -9,7 +9,7 @@ var UserView = Backbone.View.extend({
   // el: '.user',
   
   // Built-in: The value of class that will be added to the DOM element, also optional
-  className: '.user .list-item',
+  className: 'user list-item',
   
   // Built-in: Add any other attributes you might want
   attributes: {
@@ -42,7 +42,7 @@ var UserView = Backbone.View.extend({
   render: function () {
     // The $el property is a jQuery object representing this view's root element
     // (the li in this case).
-    this.$el.html(this.template(this.model));
+    this.$el.html(this.template(this.model.toJSON()));
     return this; // Pretty common to return this so that the render call can be chained
   },
 
