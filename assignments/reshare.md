@@ -21,7 +21,7 @@ also disable users who are making rude comments or sharing inappropriate links.
 
 You'll want to fork this project, rather than clone it:
 
-https://github.com/tiy-durham-fe-2015/reshare
+- [Reshare](https://github.com/tiy-durham-fe-cohort4/reshare)
 
 The reason you want to fork it is that I may (probably will) need to fix bugs
 in the API, and you'll be wanting to pull those!
