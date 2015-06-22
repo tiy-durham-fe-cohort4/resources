@@ -96,18 +96,6 @@ DEL  /books/1 ... model.destroy();
 
 ---
 
-## Reading
-
-- [Docs](http://backbonejs.org/)
-- [Free book](http://addyosmani.github.io/backbone-fundamentals/)
-
-
-
-
-
-
-
-
 ## Collections
 
 Expect to be initialized via an array, so if your endpoint returns something else, e.g.
@@ -125,6 +113,10 @@ a hash with an array property:
 }
 ```
 
+---
+
+## Collections...
+
 Then you'd need to customize the collection to know about this:
 
 ```javascript
@@ -136,7 +128,8 @@ var Books = Backbone.Collection.extend({
 });
 ```
 
-  
+---
+
 ## Initializing Models
 
 ```javascript
@@ -289,6 +282,15 @@ book.on({
 
 ---
 
-## Collection methods and events
+## Persisting
 
-- `fetch()` loads the collection from the API endpoint
+- model.save() will create or update a model
+  - can be passed the fields you want to change: `model.save({ name: 'joe' })`
+- `collection.create({ name: 'joe'})` adds an item to a collection and persists it
+
+---
+
+## Reading
+
+- [Docs](http://backbonejs.org/)
+- [Free book](http://addyosmani.github.io/backbone-fundamentals/)
