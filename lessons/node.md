@@ -30,10 +30,10 @@ class: center, middle, inverse
 ## Using Node with Express
 
 - First: `npm init`
-- Then: `npm install --save expressjs`
+- Then: `npm install --save express`
 - Open your editor
 - Add `.gitignore` and put `node_modules` in there
-- Add `init.js` and make it look like...
+- Add `index.js` and make it look like...
 
 ---
 
@@ -63,7 +63,7 @@ var server = app.listen(3000, function () {
 
 ## Run the whole thing
 
-- `node init.js`
+- `node index.js`
 
 ---
 
@@ -104,9 +104,10 @@ app.get('/', function (req, res) {
 ```javascript
 app.get('/things', getAllTehThings);
 app.post('/things', createThing);
+app.get('/things/:id', getThingById);
 app.put('/things/:id', upsertThings);
-app.delete('/things/:id', deleteThing);
 app.patch('/things/:id', partialUpdateThing);
+app.delete('/things/:id', deleteThing);
 ```
 
 ---
@@ -128,7 +129,7 @@ app.put('/things/:id', function (req, res) {
 });
 ```
 
---- 
+---
 
 ## Handling JSON requests
 
