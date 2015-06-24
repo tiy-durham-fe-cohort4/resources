@@ -15,9 +15,9 @@ Well now you can. You are going to write an application that imports auto data a
 
 There is a publicly available set of data about cars described here:
 
-- A description of what the data means is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.names)
-- The data itself is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data)
-- It's part of UCI's [awesome dataset repository](http://archive.ics.uci.edu/ml/datasets/Auto+MPG)
+- A description of what the data means is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.names)
+- The data itself is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data)
+- It's part of UCI's [awesome dataset repository](http://archive.ics.uci.edu/ml/datasets/Automobile)
 
 ## The program
 
