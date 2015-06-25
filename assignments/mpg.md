@@ -19,6 +19,8 @@ There is a publicly available set of data about cars described here:
 - The data itself is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data)
 - It's part of UCI's [awesome dataset repository](http://archive.ics.uci.edu/ml/datasets/Automobile)
 
+- Alternatively, you could use [this dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/)
+
 ## The program
 
 ### MVP
