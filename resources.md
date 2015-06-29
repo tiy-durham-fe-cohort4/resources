@@ -186,6 +186,7 @@ Inspiration
 * http://line25.com/
 * http://land-book.com/
 * http://www.awwwards.com/
+* http://lapa.ninja/
 
 ## JavaScript
 
