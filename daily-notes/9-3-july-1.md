@@ -10,10 +10,15 @@
 
 - [Express' CSRF overview](https://github.com/pillarjs/understanding-csrf)
 
+## Clinton's solution to the Python project
+ 
+- [GitHub repo here](https://github.com/tiyd-python-2015-05/eager-viper)
+
 ## Design dos and donts
 
 Do | Don't
 --- | ---
+
 
 ## Homework
 
