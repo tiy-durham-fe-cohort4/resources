@@ -5,6 +5,7 @@
 - [Try ES6](http://www.es6fiddle.net/)
 - [ES6 to ES5 using Babel](https://babeljs.io/)
 - [Babel + Browserify](https://github.com/babel/babelify)
+- [ES6 modules are awesome](http://www.2ality.com/2014/09/es6-modules-final.html)
 
 ## CSRF... all the things you need to know
 
