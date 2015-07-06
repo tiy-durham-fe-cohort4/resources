@@ -187,6 +187,7 @@ Inspiration
 * http://land-book.com/
 * http://www.awwwards.com/
 * http://lapa.ninja/
+* http://logopond.com/
 
 ## JavaScript
 
@@ -334,6 +335,8 @@ Google "ACM programming competition problems", and try solving some of the probl
 Find a free dataset and play with the data:
 
 - https://github.com/caesar0301/awesome-public-datasets
+- http://blog.yhathq.com/posts/7-funny-datasets.html
+- http://archive.ics.uci.edu/ml/datasets.html
 
 ## Design
 
