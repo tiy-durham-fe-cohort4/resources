@@ -7,11 +7,11 @@ Also, we compiled a table today after reviewing some other sites. That can be fo
 
 ## 1. Start with three colors: black, white, and a medium gray. 
 
-If you can’t design it with these three colors, you can’t design it with any colors. When you do start to add in colors, use this tool (colourco.de) on the monochromatic + dark gray mode so that all your colors look good together.
+If you can’t design it with these three colors, you can’t design it with any colors. When you do start to add in colors, use this tool [colourco.de](http://colourco.de/) on the monochromatic + dark gray mode so that all your colors look good together.
 
 ## 2. Don’t get fancy with fonts. 
 
-Actually, don’t even think about fonts. Just use one typeface (font) with lots of weights. That will allow you to think about HOW you’re using fonts rather than which ones you’re using. Seriously—DON’T THINK ABOUT FONTS. Just use the ones on this list that match the feel you’re going for. They’re free Google fonts, because free is good and Google web fonts are easy. And if you're designing a mockup before you design the real thing you can easily download all these fonts to your computer for free.
+Actually, don’t even think about fonts. Just use one typeface (font) with lots of weights. That will allow you to think about HOW you’re using fonts rather than which ones you’re using. Seriously—*DON’T THINK ABOUT FONTS*. Just use the ones on this list that match the feel you’re going for. They’re free Google fonts, because free is good and Google web fonts are easy. And if you're designing a mockup before you design the real thing you can easily download all these fonts to your computer for free.
  
 - Friendly & Modern: Lato
 - Doing something techy? Source Sans Pro for regular copy / Source Code Pro for code snippets
