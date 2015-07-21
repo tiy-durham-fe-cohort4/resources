@@ -248,6 +248,9 @@ http://ramdajs.com/docs/
 Advanced physics library:
 http://brm.io/matter-js
 
+Small, dependency-free drag-and-drop:
+https://github.com/bevacqua/dragula
+
 Scrolling effects:
 https://github.com/gopatrik/space.js
 
