@@ -348,6 +348,7 @@ Find a free dataset and play with the data:
 Free resources for designers:
 
 - https://medium.com/@ingojoseph/free-design-resources-187bb30cc762
+- Web freebies... really good stuff: http://webdesign-freebies.tumblr.com/
 
 Design for non-designers:
 
