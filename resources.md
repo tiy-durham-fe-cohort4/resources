@@ -360,6 +360,11 @@ UX:
 - http://goodui.org/
 - http://ui-patterns.com/
 
+Credit cards:
+
+- http://jessepollak.github.io/card/
+- https://medium.com/user-experience-design-1/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb
+
 Google design guidelines:
 
 http://www.google.com/design/spec/material-design/introduction.html
