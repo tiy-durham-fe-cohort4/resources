@@ -239,6 +239,9 @@ http://jquery.com/
 lo-dash, a set of useful helpers:
 https://lodash.com/
 
+Clipboard without flash dependency:
+https://github.com/zenorocha/clipboard.js
+
 Lazy evaluation:
 http://danieltao.com/lazy.js/
 
