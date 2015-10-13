@@ -382,3 +382,7 @@ them there when the cohort starts.
 [Any of Edward Tufte's books](http://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/ref=sr_1_2?ie=UTF8&qid=1416519965&sr=8-2&keywords=edward+tufte)
 
 [The Design of Everyday Things](http://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C/ref=sr_1_1?ie=UTF8&qid=1416520014&sr=8-1&keywords=the+design+of+everyday+things)
+
+## Nicely designed sites
+
+- https://snapguide.com/
