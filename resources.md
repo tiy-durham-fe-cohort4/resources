@@ -116,7 +116,12 @@ Responsive tables:
 https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/
 
 Advanced CSS selectors game:
-http://flukeout.github.io/
+
+- http://flukeout.github.io/
+
+Flexbox game:
+
+- http://flexboxfroggy.com/
 
 Layout tutorial:
 http://learnlayout.com/no-layout.html
