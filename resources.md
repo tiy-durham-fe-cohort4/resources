@@ -155,6 +155,7 @@ Free Images
 * https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b
 * https://www.haikudeck.com
 * https://unsplash.com/
+* http://finda.photo/
 
 Fonts
 
