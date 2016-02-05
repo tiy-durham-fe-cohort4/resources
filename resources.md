@@ -183,6 +183,8 @@ http://exisweb.net/incredibly-useful-list-of-responsive-navigation-and-menu-patt
 
 Inspiration
 
+* http://inspired-ui.com/
+* http://inspirationui.com/
 * https://www.pinterest.com/search/pins/?q=interface%20design
 * https://dribbble.com
 * http://zurb.com/patterntap
