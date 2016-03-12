@@ -183,6 +183,7 @@ http://exisweb.net/incredibly-useful-list-of-responsive-navigation-and-menu-patt
 
 Inspiration
 
+* http://uxmovement.com/
 * http://uimovement.com/
 * http://inspired-ui.com/
 * http://inspirationui.com/
