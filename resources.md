@@ -151,6 +151,11 @@ https://www.bento.io/
 
 Free Images
 
+* https://stock.tookapic.com
+* http://jaymantri.com/
+* http://getrefe.tumblr.com/
+* http://nos.twnsnd.co/
+* http://images.superfamous.com/
 * http://www.pexels.com/
 * https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b
 * https://www.haikudeck.com
