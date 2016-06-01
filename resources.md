@@ -42,6 +42,11 @@ http://meyerweb.com/eric/tools/css/reset/
 Scale calculator for headers, line-heights, etc:
 http://type-scale.com/
 
+Image, vector creation:
+
+- https://krita.org/download/krita-desktop/
+- https://inkscape.org/en/
+
 Simple grid system:
 
 - http://susy.oddbird.net/ is probably my favorite
